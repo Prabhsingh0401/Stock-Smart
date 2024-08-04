@@ -178,7 +178,7 @@ export default function Home() {
         </Stack>
         <Box width="1200px" overflow="hidden">
           <Box height="100px" bgcolor="#b1ffff" display="flex" justifyContent="left" alignItems="center" borderRadius="20px" marginBottom="5vh">
-            <Typography variant="h3" color="#333" textAlign="center" fontWeight="600" marginLeft="3vw">What's on your list</Typography>
+            <Typography variant="h3" color="#333" textAlign="center" fontWeight="600" marginLeft="3vw">What&apos;s on your list</Typography>
           </Box>
           <Stack height="300px" spacing={2} overflow="auto">
             {filteredInventory.map(({ name, quantity }) => (
