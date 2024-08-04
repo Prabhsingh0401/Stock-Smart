@@ -1,0 +1,36 @@
+:root{
+    overflow-x: hidden;
+    background-color: #b1ffff;
+
+}
+
+::-webkit-scrollbar{
+    overflow: scroll;
+    display: none;
+}
+
+.hero-section{
+    display: flex;
+    
+    .hero-left{
+        width: 50%;
+
+        h1{
+            margin-left: 20vh;
+            margin-top: 20vh;
+            font-size: 60px;
+        }
+    }
+
+    .hero-right{
+        width: 50%;
+
+        p{
+            margin-top: 20vh;
+            font-size: 35px;
+            width: 100%;
+            margin-left: -5vw;
+        }
+    }
+}
+  
