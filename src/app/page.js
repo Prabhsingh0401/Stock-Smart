@@ -143,7 +143,7 @@ export default function Home() {
     <>
       <div className='hero-section'>
         <div className='hero-left'><h1>Stock Smart</h1></div>
-        <div className='hero-right'><p>"Organize and manage any inventory with ease using our versatile app"</p></div>
+        <div className='hero-right'><p>Organize and manage any inventory with ease using our versatile app</p></div>
       </div>
       <Box width="100vw" height="100vh" display="flex" justifyContent="center" flexDirection="column" alignItems="center" gap={2}>
         <Modal open={open} onClose={handleClose} aria-labelledby="modal-modal-title" aria-describedby="modal-modal-description">
